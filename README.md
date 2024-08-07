@@ -64,9 +64,9 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 ## Language Skills 
 ***
-- **Pashto** (Native)
-- **English**: C1
-- **Urdu**: C2
+- **Chinese** (Native or bilingual proficiency)
+- **English**: Professional proficiency
+- **Spanish**: Elementary proficiency
 
 ## Contact
 - **Email**: [luwei2359@gmail.com](mailto:luwei2359@gmail.com)
