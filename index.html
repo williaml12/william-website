@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Lu's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #005f73;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #001219;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #0a9396;
+        }
+        .hero {
+            background: url('images/hero.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #005f73;
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #ee9b00;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #ca6702;
+        }
+        footer {
+            background-color: #001219;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #ee9b00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>William Lu</h1>
+        <p>AI Researcher & Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#workshop">Workshop</a>
+        <a href="#projects">Projects</a>
+        <a href="#dataset">Dataset</a>
+        <a href="#digital-skills">Digital Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#language-skills">Language Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+    </div>
+    <section id="about">
+        <h2>About</h2>
+        <div class="card">
+            <p>Recent engineering graduate with experience in mechanical design, mechanical simulation, computer vision, machine learning, data analysis; and seeking opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.</p>
+            <p>Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cybersecurity.</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <p><strong>Ira A. Fulton Schools of Engineering at Arizona State University</strong></p>
+            <p>Bachelor's degree in Engineering, Biomedical Engineering</p>
+            <p>[08/05/2014 – 05/10/2017]</p>
+            <p>Major Subjects:</p>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Advanced Digital Image Processing</li>
+                <li>Advanced Data Mining</li>
+                <li>Advanced Research Methods and Quantitative Tools</li>
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <ul>
+                <li><strong>IMAV LLC</strong> – Mechanical Design Engineer & CFD Analyst</li>
+                <li><strong>Intelligent Embedded Systems Laboratory (IeSL), ASU</strong> - Undergraduate Research Assistant in Mechanical Engineering</li>
+                <li><strong>Arizona Biomedical Collaborative, University of Arizona College of Medicine</strong> – Product Design Engineer Intern</li>
+                <li><strong>Neural Control of Movement Lab, ASU</strong> – Undergraduate Research Assistant</li>
+            </ul>
+        </div>
+    </section>
+    <section id="workshop">
+        <h2>Workshop</h2>
+        <div class="card">
+            <p><strong>Modeling and Simulation Using Artificial Neural Networks</strong></p>
+            <p>Organized by NUST, Peshawar Road, Rawalpindi, Pakistan</p>
+            <p>[22/05/2017]</p>
+            <p>Focused on artificial intelligence paradigms and neural network applications.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Face Recognition Attendance System</h3>
+            <p>An app using face recognition for attendance, perfect for schools and colleges.</p>
+            <a class="button" href="https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Periapical X-ray Classifier</h3>
+            <p>Predicts lesions in X-rays using deep convolutional networks.</p>
+            <a class="button" href="https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Image Classifier</h3>
+            <p>Built using pre-trained convolutional networks.</p>
+            <a class="button" href="https://confirm.udacity.com/D4KCHPUZ">Certification</a>
+        </div>
+    </section>
+    <section id="dataset">
+        <h2>Dataset</h2>
+        <div class="card">
+            <p><strong>Periapical X-rays Data set</strong></p>
+            <p>Kaggle dataset from AFID, Rawalpindi.</p>
+            <a href="https://doi.org/10.34740/KAGGLE/DSV/2664831">Kaggle Dataset</a>
+        </div>
+    </section>
+    <section id="digital-skills">
+        <h2>Digital Skills</h2>
+        <div class="card">
+            <p>Python Programming / Tensorflow Framework / Tensorflow Keras Framework</p>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card">
+            <ul>
+                <li>AI for Medicine Specialization (deeplearning.ai)</li>
+                <li>TensorFlow Developer Professional Certificate (deeplearning.ai)</li>
+                <li>AI Programming with Python Nanodegree (Udacity)</li>
+                <li>Neural Networks and Deep Learning (deeplearning.ai)</li>
+            </ul>
+        </div>
+    </section>
+    <section id="language-skills">
+        <h2>Language Skills</h2>
+        <div class="card">
+            <p><strong>Pashto</strong> (Native)</p>
+            <p><strong>English</strong>: C1</p>
+            <p><strong>Urdu</strong>: C2</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:luwei2359@gmail.com">luwei2359@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
+        <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
+    </section>
+    <footer>
+        <p>© 2024 William Lu. All rights reserved.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
