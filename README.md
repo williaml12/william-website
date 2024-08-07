@@ -1,9 +1,4 @@
 
-Date of birth: 23/06/1991 Gender: Male
-- **Email address**: muhammad_sajad47@yahoo.com
-- **LinkedIn**: [http://www.linkedin.com/in/muhammad-sajad](http://www.linkedin.com/in/muhammad-sajad)
-- **Github**: [https://github.com/muhammadsajad](https://github.com/muhammadsajad)
-- **Home**: Gul Berg Town Mohallah Yaqoob Khan Kass Koroona Mardan, Pakistan, 23200 Mardan (Pakistan)
 
 
 ## Education 
@@ -111,19 +106,8 @@ Mother tongue(s): **Pashto** <br/>
 |SPOKEN PRODUCTION C2 | SPOKEN INTERACTION C2| <br/>
 Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
 
-## References
-1) **Dr. Imran Shafi** <br />
-> Professor <br />
-> College of Electrical & Mechanical Engineering (CEME), <br />
-> National University of Sciences & Technology (NUST) <br />
-> **Office Phone:** 051-54444008 <br />
-> **Email:** [imranshafi@ceme.nust.edu.pk](mailto:imranshafi@ceme.nust.edu.pk) <br />
-> **Cell:** +92-323-8554569 <br />
+## Contact
+- **Email address**: luwei2359@gmail.com
+- **LinkedIn**: [http://www.linkedin.com/in/muhammad-sajad](https://www.linkedin.com/in/william-lu-47693b145/)
+- **Github**: [https://github.com/muhammadsajad](https://github.com/williaml12)
 
-2) **Dr Aqib Perwaiz, PhD** <br />
-> Director Research &Development <br />
-> CEME, National University of Sciences and Technology <br />
-> Islamabad, Pakistan <br />
-> **Office Ph:** +92 (0) 51-54444700 <br />
-> **Email:** [aqib.perwaiz@ceme.nust.edu.pk](mailto:aqib.perwaiz@ceme.nust.edu.pk) <br />
-   
