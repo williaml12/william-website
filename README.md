@@ -107,7 +107,7 @@ Mother tongue(s): **Pashto** <br/>
 Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficient user
 
 ## Contact
-- **Email address**: luwei2359@gmail.com
+- **Email address**: [luwei2359@gmail.com](luwei2359@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/william-lu-47693b145/](https://www.linkedin.com/in/william-lu-47693b145/)
 - **Github**: [https://github.com/williaml12](https://github.com/williaml12)
 
