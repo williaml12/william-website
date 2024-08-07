@@ -108,6 +108,6 @@ Levels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Proficien
 
 ## Contact
 - **Email address**: luwei2359@gmail.com
-- **LinkedIn**: [http://www.linkedin.com/in/muhammad-sajad](https://www.linkedin.com/in/william-lu-47693b145/)
-- **Github**: [https://github.com/muhammadsajad](https://github.com/williaml12)
+- **LinkedIn**: [https://www.linkedin.com/in/william-lu-47693b145/](https://www.linkedin.com/in/william-lu-47693b145/)
+- **Github**: [https://github.com/williaml12](https://github.com/williaml12)
 
