@@ -6,8 +6,8 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 ## Education 
 ***
-**MS Computer Science, Abasyn University Islamabad Campus, Pakistan**  
-*08/05/2017 – 18/05/2019*  
+**Ira A. Fulton Schools of Engineering at Arizona State University                        May 2017 **  
+*Bachelor's degree in Engineering, Biomedical Engineering*  
 **CGPA: 3.53/4.0**  
 **Major Subjects:**
 - Machine Learning
