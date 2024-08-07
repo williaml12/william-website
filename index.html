@@ -88,6 +88,27 @@
         footer a:hover {
             text-decoration: underline;
         }
+        /* Scroll to Top Button Styles */
+        #scrollToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 30px; /* Distance from the bottom */
+            right: 30px; /* Distance from the right */
+            z-index: 99; /* Sit on top */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #005f73; /* Background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Pointer cursor */
+            padding: 10px 20px; /* Some padding */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            opacity: 0.7; /* Slight transparency */
+            transition: opacity 0.3s ease;
+        }
+        #scrollToTopBtn:hover {
+            opacity: 1; /* Fully opaque on hover */
+        }
     </style>
 </head>
 <body>
@@ -209,12 +230,10 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
         <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
     </section>
-   <!-- Existing content -->
-    
+
     <!-- Scroll to Top Button -->
     <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
-    
-    <!-- Existing footer -->
+
     <footer>
         <p>© 2024 William Lu. All rights reserved.</p>
         <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
