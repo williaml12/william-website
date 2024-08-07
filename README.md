@@ -16,16 +16,13 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 - Advanced Data Mining
 - Advanced Research Methods and Quantitative Tools
 
-## Publications
+## Experience
 ***
-- [M. Sajad, I. Shafi, J. Ahmad, "Automatic Lesion Detection in Periapical X-rays," ICECCE, 2019](https://ieeexplore.ieee.org/abstract/document/8940661)
-- [Imran Shafi, et al., "Teeth Lesion Detection Using Deep Learning," Sensors 2023](https://doi.org/10.3390/s23156837)
+- **IMAV LLC** – Mechanical Design Engineer & CFD Analyst
+- **Intelligent Embedded Systems Laboratory (IeSL), ASU** - Undergraduate Research Assistant in Mechanical Engineering
+- **Arizona Biomedical Collaborative, University of Arizona College of Medicine** – Product Design Engineer Intern
+- **Neural Control of Movement Lab, ASU** – Undergraduate Research Assistant
 
-## Conferences and Seminars
-***
-- **International Conference on Electrical, Communication, and Computer Engineering (ICECCE)**  
-  *Swat, Pakistan, 24/07/2019 – 25/07/2019*  
-  Presented research on lesion detection in X-rays.
 
 ## Workshop
 ***
