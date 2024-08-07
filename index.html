@@ -209,9 +209,39 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
         <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
     </section>
+   <!-- Existing content -->
+    
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+    
+    <!-- Existing footer -->
     <footer>
         <p>© 2024 William Lu. All rights reserved.</p>
         <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
     </footer>
+
+    <script>
+        // JavaScript for Scroll to Top Button
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        
+        window.onscroll = function() {
+            toggleScrollToTopButton();
+        };
+        
+        function toggleScrollToTopButton() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+        
+        scrollToTopBtn.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
 </body>
 </html>
