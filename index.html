@@ -1,205 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Lu's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Example styles to make the site visually appealing */
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #005f73;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #001219;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0a9396;
+        }
+        .hero {
+            background: url('images/background_image1.jpg') center/cover no-repeat;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #005f73;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        h2:before {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background-color: #005f73;
+            bottom: -10px;
+            left: 0;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        }
+        .button {
+            display: inline-block;
+            background-color: #ee9b00;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ca6702;
+        }
+        footer {
+            background-color: #001219;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #ee9b00;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        /* Scroll to Top Button Styles */
+        #scrollToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 30px; /* Distance from the bottom */
+            right: 30px; /* Distance from the right */
+            z-index: 99; /* Sit on top */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #005f73; /* Background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Pointer cursor */
+            padding: 10px 20px; /* Some padding */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            opacity: 0.7; /* Slight transparency */
+            transition: opacity 0.3s ease;
+        }
+        #scrollToTopBtn:hover {
+            opacity: 1; /* Fully opaque on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>William Lu</h1>
+        <p>AI Researcher & Developer</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#workshop">Workshop</a>
+        <a href="#projects">Projects</a>
+        <a href="#dataset">Dataset</a>
+        <a href="#digital-skills">Digital Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#language-skills">Language Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
+    </div>
+    <section id="about">
+        <h2>About</h2>
+        <div class="card">
+            <p>Recent engineering graduate with experience in mechanical design, mechanical simulation, computer vision, machine learning, data analysis; and seeking opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.</p>
+            <p>Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cybersecurity.</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <p><strong>Ira A. Fulton Schools of Engineering at Arizona State University</strong></p>
+            <p>Bachelor's degree in Engineering, Biomedical Engineering</p>
+            <p>[08/05/2014 – 05/10/2017]</p>
+            <p>Major Subjects:</p>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Advanced Digital Image Processing</li>
+                <li>Advanced Data Mining</li>
+                <li>Advanced Research Methods and Quantitative Tools</li>
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <ul>
+                <li><strong>IMAV LLC</strong> – Mechanical Design Engineer & CFD Analyst</li>
+                <li><strong>Intelligent Embedded Systems Laboratory (IeSL), ASU</strong> - Undergraduate Research Assistant in Mechanical Engineering</li>
+                <li><strong>Arizona Biomedical Collaborative, University of Arizona College of Medicine</strong> – Product Design Engineer Intern</li>
+                <li><strong>Neural Control of Movement Lab, ASU</strong> – Undergraduate Research Assistant</li>
+            </ul>
+        </div>
+    </section>
+    <section id="workshop">
+        <h2>Workshop</h2>
+        <div class="card">
+            <p><strong>Modeling and Simulation Using Artificial Neural Networks</strong></p>
+            <p>Organized by NUST, Peshawar Road, Rawalpindi, Pakistan</p>
+            <p>[22/05/2017]</p>
+            <p>Focused on artificial intelligence paradigms and neural network applications.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Face Recognition Attendance System</h3>
+            <p>An app using face recognition for attendance, perfect for schools and colleges.</p>
+            <a class="button" href="https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Periapical X-ray Classifier</h3>
+            <p>Predicts lesions in X-rays using deep convolutional networks.</p>
+            <a class="button" href="https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Image Classifier</h3>
+            <p>Built using pre-trained convolutional networks.</p>
+            <a class="button" href="https://confirm.udacity.com/D4KCHPUZ">Certification</a>
+        </div>
+    </section>
+    <section id="dataset">
+        <h2>Dataset</h2>
+        <div class="card">
+            <p><strong>Periapical X-rays Data set</strong></p>
+            <p>Kaggle dataset from AFID, Rawalpindi.</p>
+            <a href="https://doi.org/10.34740/KAGGLE/DSV/2664831">Kaggle Dataset</a>
+        </div>
+    </section>
+    <section id="digital-skills">
+        <h2>Digital Skills</h2>
+        <div class="card">
+            <p>Python Programming / Tensorflow Framework / Tensorflow Keras Framework</p>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card">
+            <ul>
+                <li>AI for Medicine Specialization (deeplearning.ai)</li>
+                <li>TensorFlow Developer Professional Certificate (deeplearning.ai)</li>
+                <li>AI Programming with Python Nanodegree (Udacity)</li>
+                <li>Neural Networks and Deep Learning (deeplearning.ai)</li>
+            </ul>
+        </div>
+    </section>
+    <section id="language-skills">
+        <h2>Language Skills</h2>
+        <div class="card">
+            <p><strong>Pashto</strong> (Native)</p>
+            <p><strong>English</strong>: C1</p>
+            <p><strong>Urdu</strong>: C2</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:luwei2359@gmail.com">luwei2359@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
+        <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
+    </section>
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <footer>
+        <p>© 2024 William Lu. All rights reserved.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
+    </footer>
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Marlon</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Marlon</span><br> Web Designer</h1>
-
-                    <a href="#" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Marlon</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Marlon</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <script>
+        // JavaScript for Scroll to Top Button
+        const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+        
+        window.onscroll = function() {
+            toggleScrollToTopButton();
+        };
+        
+        function toggleScrollToTopButton() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        }
+        
+        scrollToTopBtn.addEventListener("click", function() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
 </html>
