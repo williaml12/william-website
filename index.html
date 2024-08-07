@@ -6,29 +6,37 @@
     <title>William Lu's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
+        /* Example styles to make the site visually appealing */
         body {
             font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
             color: #333;
+            line-height: 1.6;
         }
         header {
             background-color: #005f73;
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         nav {
             display: flex;
             justify-content: center;
             background-color: #001219;
+            padding: 10px 0;
         }
         nav a {
             color: #fff;
-            padding: 14px 20px;
+            padding: 10px 20px;
             text-decoration: none;
             text-transform: uppercase;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
             background-color: #0a9396;
@@ -45,6 +53,11 @@
         .hero h1 {
             font-family: 'Playfair Display', serif;
             font-size: 3em;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
         }
         section {
             padding: 60px 20px;
@@ -55,6 +68,16 @@
             font-family: 'Playfair Display', serif;
             color: #005f73;
             margin-bottom: 20px;
+            position: relative;
+        }
+        h2:before {
+            content: "";
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background-color: #005f73;
+            bottom: -10px;
+            left: 0;
         }
         .card {
             background-color: #fff;
@@ -62,6 +85,11 @@
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin-bottom: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
         }
         .button {
             display: inline-block;
@@ -70,7 +98,7 @@
             padding: 10px 20px;
             text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s ease;
         }
         .button:hover {
             background-color: #ca6702;
@@ -87,27 +115,6 @@
         }
         footer a:hover {
             text-decoration: underline;
-        }
-        /* Scroll to Top Button Styles */
-        #scrollToTopBtn {
-            display: none; /* Hidden by default */
-            position: fixed; /* Fixed position */
-            bottom: 30px; /* Distance from the bottom */
-            right: 30px; /* Distance from the right */
-            z-index: 99; /* Sit on top */
-            border: none; /* Remove borders */
-            outline: none; /* Remove outline */
-            background-color: #005f73; /* Background color */
-            color: white; /* Text color */
-            cursor: pointer; /* Pointer cursor */
-            padding: 10px 20px; /* Some padding */
-            border-radius: 5px; /* Rounded corners */
-            font-size: 18px; /* Increase font size */
-            opacity: 0.7; /* Slight transparency */
-            transition: opacity 0.3s ease;
-        }
-        #scrollToTopBtn:hover {
-            opacity: 1; /* Fully opaque on hover */
         }
     </style>
 </head>
