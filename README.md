@@ -1,3 +1,9 @@
+## About
+***
+Recent engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, data analysis; and seeking for opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
+
+Interest in personalize medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cyber security.
+
 ## Education 
 ***
 **MS Computer Science, Abasyn University Islamabad Campus, Pakistan**  
