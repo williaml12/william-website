@@ -12,69 +12,35 @@
             padding: 0;
             background-color: #f5f5f5;
             color: #333;
-            display: flex;
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-        /* Sidebar styles */
-        #sidebar {
-            width: 200px;
-            background-color: #001219;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            padding-top: 20px;
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: -200px; /* Initially hide the sidebar */
-            z-index: 1000;
-            transition: left 0.3s ease;
-        }
-        #sidebar.open {
-            left: 0; /* Show the sidebar */
-        }
-        #sidebar a {
-            color: #fff;
-            padding: 15px 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-            transition: background-color 0.3s ease;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        #sidebar a:hover {
-            background-color: #0a9396;
-        }
-        /* Sidebar toggle button */
-        #sidebarToggle {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            z-index: 1100;
-            background-color: #005f73;
-            color: #fff;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .content {
-            margin-left: 0;
-            padding: 20px;
-            flex: 1;
-            transition: margin-left 0.3s ease;
-        }
-        .content.shifted {
-            margin-left: 200px; /* Move content when sidebar is open */
+            line-height: 1.6;
         }
         header {
             background-color: #005f73;
             color: #fff;
             padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #001219;
+            padding: 10px 0;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            font-size: 0.9em;
+        }
+        nav a:hover {
+            background-color: #0a9396;
         }
         .hero {
             background: url('images/hero.jpg') center/cover no-repeat;
@@ -158,43 +124,40 @@
         }
         /* Scroll to Top Button Styles */
         #scrollToTopBtn {
-            display: none;
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            z-index: 99;
-            border: none;
-            outline: none;
-            background-color: #005f73;
-            color: white;
-            cursor: pointer;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 18px;
-            opacity: 0.7;
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 30px; /* Distance from the bottom */
+            right: 30px; /* Distance from the right */
+            z-index: 99; /* Sit on top */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #005f73; /* Background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Pointer cursor */
+            padding: 10px 20px; /* Some padding */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            opacity: 0.7; /* Slight transparency */
             transition: opacity 0.3s ease;
         }
         #scrollToTopBtn:hover {
-            opacity: 1;
+            opacity: 1; /* Fully opaque on hover */
         }
 
         /* Responsive Media Queries */
         @media (max-width: 768px) {
-            #sidebar {
-                width: 150px;
-                left: -150px;
-            }
-            #sidebar.open {
-                left: 0;
-            }
-            .content.shifted {
-                margin-left: 150px;
-            }
             .hero {
                 height: 250px;
             }
             .hero h1 {
                 font-size: 2em;
+            }
+            nav a {
+                font-size: 0.8em;
+                padding: 8px 10px;
+            }
+            section {
+                padding: 20px;
             }
             h2 {
                 font-size: 1.5em;
@@ -206,18 +169,12 @@
         }
 
         @media (max-width: 480px) {
-            #sidebar {
-                width: 120px;
-                left: -120px;
-            }
-            #sidebar.open {
-                left: 0;
-            }
-            .content.shifted {
-                margin-left: 120px;
-            }
             .hero h1 {
                 font-size: 1.8em;
+            }
+            nav a {
+                font-size: 0.75em;
+                padding: 6px 8px;
             }
             h2 {
                 font-size: 1.3em;
@@ -230,8 +187,11 @@
     </style>
 </head>
 <body>
-    <button id="sidebarToggle">☰</button> <!-- Sidebar toggle button -->
-    <nav id="sidebar">
+    <header>
+        <h1>William Lu</h1>
+        <p>AI Researcher & Developer</p>
+    </header>
+    <nav>
         <a href="#about">About</a>
         <a href="#education">Education</a>
         <a href="#experience">Experience</a>
@@ -243,134 +203,118 @@
         <a href="#language-skills">Language Skills</a>
         <a href="#contact">Contact</a>
     </nav>
-    <div class="content">
-        <header>
-            <h1>William Lu</h1>
-            <p>AI Researcher & Developer</p>
-        </header>
-        <div class="hero">
-            <h1>Welcome to My Portfolio</h1>
-        </div>
-        <section id="about">
-            <h2>About</h2>
-            <div class="card">
-                <p>Recent engineering graduate with experience in mechanical design, mechanical simulation, computer vision, machine learning, data analysis; and seeking opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.</p>
-                <p>Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cybersecurity.</p>
-            </div>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <div class="card">
-                <p><strong>Ira A. Fulton Schools of Engineering at Arizona State University</strong></p>
-                <p>Bachelor's degree in Engineering, Biomedical Engineering</p>
-                <p>[08/05/2014 – 05/10/2017]</p>
-                <p>Major Subjects:</p>
-                <ul>
-                    <li>Machine Learning</li>
-                    <li>Advanced Digital Image Processing</li>
-                    <li>Advanced Data Mining</li>
-                    <li>Advanced Research Methods and Quantitative Tools</li>
-                </ul>
-            </div>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <div class="card">
-                <ul>
-                    <li><strong>IMAV LLC</strong> – Mechanical Design Engineer & CFD Analyst</li>
-                    <li><strong>Intelligent Embedded Systems Laboratory (IeSL), ASU</strong> - Undergraduate Research Assistant in Mechanical Engineering</li>
-                    <li><strong>Arizona Biomedical Collaborative, University of Arizona College of Medicine</strong> – Product Design Engineer Intern</li>
-                    <li><strong>Neural Control of Movement Lab, ASU</strong> – Undergraduate Research Assistant</li>
-                </ul>
-            </div>
-        </section>
-        <section id="workshop">
-            <h2>Workshop</h2>
-            <div class="card">
-                <p><strong>Modeling and Simulation Using Artificial Neural Networks</strong></p>
-                <p>Organized by NUST, Peshawar Road, Rawalpindi, Pakistan</p>
-                <p>[22/05/2017]</p>
-                <p>Focused on artificial intelligence paradigms and neural network applications.</p>
-            </div>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="card">
-                <h3>Face Recognition Attendance System</h3>
-                <p>An app using face recognition for attendance, perfect for schools and colleges.</p>
-                <a class="button" href="https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX">Watch Demo</a>
-            </div>
-            <div class="card">
-                <h3>Periapical X-ray Classifier</h3>
-                <p>Predicts lesions in X-rays using deep convolutional networks.</p>
-                <a class="button" href="https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB">Watch Demo</a>
-            </div>
-            <div class="card">
-                <h3>Image Classifier</h3>
-                <p>Built using pre-trained convolutional networks.</p>
-                <a class="button" href="https://confirm.udacity.com/D4KCHPUZ">Certification</a>
-            </div>
-        </section>
-        <section id="dataset">
-            <h2>Dataset</h2>
-            <div class="card">
-                <p><strong>Periapical X-rays Data set</strong></p>
-                <p>Kaggle dataset from AFID, Rawalpindi.</p>
-                <a href="https://doi.org/10.34740/KAGGLE/DSV/2664831">Kaggle Dataset</a>
-            </div>
-        </section>
-        <section id="digital-skills">
-            <h2>Digital Skills</h2>
-            <div class="card">
-                <p>Python Programming / Tensorflow Framework / Tensorflow Keras Framework</p>
-            </div>
-        </section>
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <div class="card">
-                <ul>
-                    <li>AI for Medicine Specialization (deeplearning.ai)</li>
-                    <li>TensorFlow Developer Professional Certificate (deeplearning.ai)</li>
-                    <li>AI Programming with Python Nanodegree (Udacity)</li>
-                    <li>Neural Networks and Deep Learning (deeplearning.ai)</li>
-                </ul>
-            </div>
-        </section>
-        <section id="language-skills">
-            <h2>Language Skills</h2>
-            <div class="card">
-                <p><strong>Pashto</strong> (Native)</p>
-                <p><strong>English</strong>: C1</p>
-                <p><strong>Urdu</strong>: C2</p>
-            </div>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:luwei2359@gmail.com">luwei2359@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
-            <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
-        </section>
-
-        <!-- Scroll to Top Button -->
-        <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
-
-        <footer>
-            <p>© 2024 William Lu. All rights reserved.</p>
-            <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
-        </footer>
+    <div class="hero">
+        <h1>Welcome to My Portfolio</h1>
     </div>
+    <section id="about">
+        <h2>About</h2>
+        <div class="card">
+            <p>Recent engineering graduate with experience in mechanical design, mechanical simulation, computer vision, machine learning, data analysis; and seeking opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.</p>
+            <p>Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cybersecurity.</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <p><strong>Ira A. Fulton Schools of Engineering at Arizona State University</strong></p>
+            <p>Bachelor's degree in Engineering, Biomedical Engineering</p>
+            <p>[08/05/2014 – 05/10/2017]</p>
+            <p>Major Subjects:</p>
+            <ul>
+                <li>Machine Learning</li>
+                <li>Advanced Digital Image Processing</li>
+                <li>Advanced Data Mining</li>
+                <li>Advanced Research Methods and Quantitative Tools</li>
+            </ul>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <ul>
+                <li><strong>IMAV LLC</strong> – Mechanical Design Engineer & CFD Analyst</li>
+                <li><strong>Intelligent Embedded Systems Laboratory (IeSL), ASU</strong> - Undergraduate Research Assistant in Mechanical Engineering</li>
+                <li><strong>Arizona Biomedical Collaborative, University of Arizona College of Medicine</strong> – Product Design Engineer Intern</li>
+                <li><strong>Neural Control of Movement Lab, ASU</strong> – Undergraduate Research Assistant</li>
+            </ul>
+        </div>
+    </section>
+    <section id="workshop">
+        <h2>Workshop</h2>
+        <div class="card">
+            <p><strong>Modeling and Simulation Using Artificial Neural Networks</strong></p>
+            <p>Organized by NUST, Peshawar Road, Rawalpindi, Pakistan</p>
+            <p>[22/05/2017]</p>
+            <p>Focused on artificial intelligence paradigms and neural network applications.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Face Recognition Attendance System</h3>
+            <p>An app using face recognition for attendance, perfect for schools and colleges.</p>
+            <a class="button" href="https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Periapical X-ray Classifier</h3>
+            <p>Predicts lesions in X-rays using deep convolutional networks.</p>
+            <a class="button" href="https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB">Watch Demo</a>
+        </div>
+        <div class="card">
+            <h3>Image Classifier</h3>
+            <p>Built using pre-trained convolutional networks.</p>
+            <a class="button" href="https://confirm.udacity.com/D4KCHPUZ">Certification</a>
+        </div>
+    </section>
+    <section id="dataset">
+        <h2>Dataset</h2>
+        <div class="card">
+            <p><strong>Periapical X-rays Data set</strong></p>
+            <p>Kaggle dataset from AFID, Rawalpindi.</p>
+            <a href="https://doi.org/10.34740/KAGGLE/DSV/2664831">Kaggle Dataset</a>
+        </div>
+    </section>
+    <section id="digital-skills">
+        <h2>Digital Skills</h2>
+        <div class="card">
+            <p>Python Programming / Tensorflow Framework / Tensorflow Keras Framework</p>
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="card">
+            <ul>
+                <li>AI for Medicine Specialization (deeplearning.ai)</li>
+                <li>TensorFlow Developer Professional Certificate (deeplearning.ai)</li>
+                <li>AI Programming with Python Nanodegree (Udacity)</li>
+                <li>Neural Networks and Deep Learning (deeplearning.ai)</li>
+            </ul>
+        </div>
+    </section>
+    <section id="language-skills">
+        <h2>Language Skills</h2>
+        <div class="card">
+            <p><strong>Pashto</strong> (Native)</p>
+            <p><strong>English</strong>: C1</p>
+            <p><strong>Urdu</strong>: C2</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:luwei2359@gmail.com">luwei2359@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/william-lu-47693b145/">William Lu</a></p>
+        <p>GitHub: <a href="https://github.com/williaml12">williaml12</a></p>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" title="Go to top">&#8679;</button>
+
+    <footer>
+        <p>© 2024 William Lu. All rights reserved.</p>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/william-lu-47693b145/">LinkedIn</a> and <a href="https://github.com/williaml12">GitHub</a>.</p>
+    </footer>
 
     <script>
-        // JavaScript for Sidebar Toggle
-        const sidebarToggleBtn = document.getElementById('sidebarToggle');
-        const sidebar = document.getElementById('sidebar');
-        const content = document.querySelector('.content');
-
-        sidebarToggleBtn.addEventListener('click', function() {
-            sidebar.classList.toggle('open');
-            content.classList.toggle('shifted');
-        });
-
         // JavaScript for Scroll to Top Button
         const scrollToTopBtn = document.getElementById("scrollToTopBtn");
         
