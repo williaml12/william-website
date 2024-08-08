@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mechanical Engineer Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         /* Basic Styles */
@@ -137,20 +137,34 @@
             font-size: 0.9em;
         }
 
-        /* Skills Section */
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        /* Experience and Education Section */
+        .timeline {
+            margin: 40px 0;
+            padding: 0;
+            list-style-type: none;
         }
-        .skill {
-            background-color: #001219;
-            color: #fff;
-            padding: 10px 20px;
-            margin: 10px;
-            border-radius: 5px;
+        .timeline-item {
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 20px;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #005f73;
+        }
+        .timeline-item h4 {
+            margin: 0 0 5px;
+            font-size: 1.2em;
+            color: #005f73;
+        }
+        .timeline-item p {
+            margin: 0;
             font-size: 0.9em;
-            text-align: center;
         }
 
         /* Footer */
@@ -208,7 +222,8 @@
     <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
     </nav>
     <div class="hero">
@@ -216,7 +231,7 @@
     </div>
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>I'm a passionate software developer with expertise in creating web applications. I have a strong background in computer science and a love for coding.</p>
+        <p>I'm a dedicated mechanical engineer with a passion for designing and optimizing mechanical systems. My expertise lies in CAD design, FEA analysis, and project management.</p>
         <a href="#contact" class="button">Get in Touch</a>
     </section>
     <section id="projects" class="container">
@@ -237,16 +252,32 @@
             <!-- Add more projects as needed -->
         </div>
     </section>
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill">JavaScript</div>
-            <div class="skill">React</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">Python</div>
-            <div class="skill">CSS</div>
-            <!-- Add more skills as needed -->
-        </div>
+    <section id="experience" class="container">
+        <h2>Professional Experience</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <h4>Mechanical Engineer at XYZ Company</h4>
+                <p>Jan 2020 - Present</p>
+                <p>Involved in designing and testing mechanical systems...</p>
+            </li>
+            <li class="timeline-item">
+                <h4>Internship at ABC Corp</h4>
+                <p>Jun 2019 - Dec 2019</p>
+                <p>Assisted in the development of CAD models and simulations...</p>
+            </li>
+            <!-- Add more experience items as needed -->
+        </ul>
+    </section>
+    <section id="education" class="container">
+        <h2>Education</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <h4>Bachelor of Science in Mechanical Engineering</h4>
+                <p>University of Engineering, 2016 - 2020</p>
+                <p>Relevant coursework: Thermodynamics, Fluid Mechanics, Machine Design...</p>
+            </li>
+            <!-- Add more education items as needed -->
+        </ul>
     </section>
     <section id="contact" class="container">
         <h2>Contact Me</h2>
