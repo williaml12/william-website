@@ -12,6 +12,7 @@
         <div class="container">
             <h1>Your Name</h1>
             <p>Mechanical Engineer</p>
+            <button id="theme-toggle">Toggle Dark Mode</button>
         </div>
     </header>
     <nav>
@@ -30,15 +31,17 @@
         </section>
         <section id="projects">
             <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Title 1</h3>
-                <p>Description of the project, what it involved, and the outcomes achieved.</p>
+            <div class="projects">
+                <div class="project" onclick="openModal('project1')">
+                    <h3>Project Title 1</h3>
+                    <p>Click to view details.</p>
+                </div>
+                <div class="project" onclick="openModal('project2')">
+                    <h3>Project Title 2</h3>
+                    <p>Click to view details.</p>
+                </div>
+                <!-- Add more projects as needed -->
             </div>
-            <div class="project">
-                <h3>Project Title 2</h3>
-                <p>Description of the project, what it involved, and the outcomes achieved.</p>
-            </div>
-            <!-- Add more projects as needed -->
         </section>
         <section id="skills">
             <h2>Skills</h2>
@@ -67,5 +70,23 @@
     <footer>
         <p>© 2024 Your Name. All rights reserved.</p>
     </footer>
+
+    <!-- Project Modals -->
+    <div id="project1-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1')">&times;</span>
+            <h2>Project Title 1</h2>
+            <p>Detailed description of the project. This project involved...</p>
+        </div>
+    </div>
+    <div id="project2-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2')">&times;</span>
+            <h2>Project Title 2</h2>
+            <p>Detailed description of the project. This project involved...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
