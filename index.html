@@ -4,90 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Your Name</h1>
-            <p>Mechanical Engineer & Innovator</p>
-            <button id="theme-toggle">Toggle Dark Mode</button>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome to my personal portfolio. I'm a mechanical engineer with a passion for design and innovation...</p>
-            <p>I love tackling complex problems and creating solutions that make a real difference. Check out my <a href="#projects">projects</a> to see my work in action!</p>
+        <section id="home" class="intro">
+            <div class="intro-content">
+                <h1>Your Name</h1>
+                <p>Welcome to my personal portfolio. I'm a mechanical engineer with a passion for design and innovation. I specialize in CAD design, project management, and FEA analysis.</p>
+            </div>
+            <div class="intro-image">
+                <img src="images/yourphoto.jpg" alt="Your Name">
+            </div>
         </section>
-        <section id="projects">
-            <h2>Featured Projects</h2>
-            <div class="projects">
-                <div class="project" onclick="openModal('project1')">
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">CAD Design</div>
+                <div class="skill-item">Finite Element Analysis (FEA)</div>
+                <div class="skill-item">Project Management</div>
+                <div class="skill-item">3D Modeling</div>
+                <div class="skill-item">Python Programming</div>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
                     <h3>Project Title 1</h3>
-                    <p>Click to view details.</p>
+                    <p>Brief description of the project. This project involves...</p>
+                    <a href="#" class="button">View Project</a>
                 </div>
-                <div class="project" onclick="openModal('project2')">
+                <div class="project-item">
                     <h3>Project Title 2</h3>
-                    <p>Click to view details.</p>
+                    <p>Brief description of the project. This project involves...</p>
+                    <a href="#" class="button">View Project</a>
                 </div>
                 <!-- Add more projects as needed -->
             </div>
         </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>CAD Design</li>
-                <li>Finite Element Analysis (FEA)</li>
-                <li>Project Management</li>
-                <!-- Add more skills as needed -->
-            </ul>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Bachelor of Science in Mechanical Engineering</h3>
-                <p>University of Engineering, Year - Year</p>
-            </div>
-            <!-- Add more education details as needed -->
-        </section>
-        <section id="contact">
+        <section id="contact" class="contact">
             <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
             <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/yourname/">Your LinkedIn</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername">Your GitHub</a></p>
         </section>
     </main>
     <footer>
         <p>© 2024 Your Name. All rights reserved.</p>
     </footer>
-
-    <!-- Project Modals -->
-    <div id="project1-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('project1')">&times;</span>
-            <h2>Project Title 1</h2>
-            <p>Detailed description of the project. This project involved...</p>
-        </div>
-    </div>
-    <div id="project2-modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('project2')">&times;</span>
-            <h2>Project Title 2</h2>
-            <p>Detailed description of the project. This project involved...</p>
-        </div>
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
