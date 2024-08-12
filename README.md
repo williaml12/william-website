@@ -9,6 +9,7 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 **Ira A. Fulton Schools of Engineering at Arizona State University** | (_May 2017_)      <br />                                                          
 *Bachelor's degree in Engineering, Biomedical Engineering*  
 
+**MS Computer Science, Abasyn University Islamabad Campus, Pakistan** <br />
 
 
 **Major Subjects:**
