@@ -8,7 +8,6 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 ***
 **Ira A. Fulton Schools of Engineering at Arizona State University**      
 _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br />
-
 **Major Subjects:**
 - Microcomputer Applications in Biomedical Engineering
 - IoT Solutions in Biomedical Engineering
@@ -25,7 +24,7 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br 
 ## Projects
 ***
 - **AI Portfolio Website**  
-  Build your portfolio with Python, Streamlit, and Google AI. Showcase your coding skills to recruiters with a chatbot tailored to your resume. 
+  Build your portfolio with Python, Streamlit, and Google AI. Showcase your coding skills to recruiters with a chatbot tailored to your resume. <br />
   **[View Project](https://github.com/williaml12/AI_Portfolio_Website)**
 
 - **iSense: Smart Home Security System**  
@@ -37,7 +36,7 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br 
   **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
 
 - **People Counter App at the Edge**  
-  The people counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people in a designated area,       providing the number of people in the frame, average duration of people in frame, and total count.  
+  The people counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people in a designated area,       providing the number of people in the frame, average duration of people in frame, and total count.  <br />
   **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
 
 - **Vehicle-Edge-Application**  
