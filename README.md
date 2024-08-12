@@ -85,6 +85,7 @@ writing
 - **Spanish**: Elementary proficiency
 
 ## Contact
+***
 - **Email**: [luwei2359@gmail.com](mailto:luwei2359@gmail.com)
 - **LinkedIn**: [William Lu](https://www.linkedin.com/in/william-lu-47693b145/)
 - **GitHub**: [williaml12](https://github.com/williaml12)
