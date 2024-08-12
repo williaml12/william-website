@@ -25,31 +25,31 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 ***
 - **AI Portfolio Website**  
   An app using face recognition for attendance, perfect for schools and colleges.  
-  **[Demo Video](https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX)**
+  **[View Project](https://github.com/williaml12/AI_Portfolio_Website)**
 
 - **iSense: Smart Home Security System**  
   Predicts lesions in X-rays using deep convolutional networks.  
-  **[Demo Video](https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB)**
+  **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
 
 - **Smart Temperature Monitoring System**  
   Built using pre-trained convolutional networks.  
-  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+  **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
 
 - **People Counter App at the Edge**  
   Built using pre-trained convolutional networks.  
-  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+  **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
 
 - **Vehicle-Edge-Application**  
   Built using pre-trained convolutional networks.  
-  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+  **[View Project](https://github.com/williaml12/Vehicle-Edge-Application)**
 
 - **Door-Security-System**  
   Built using pre-trained convolutional networks.  
-  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+  **[View Project](https://github.com/williaml12/Door-Security-System)**
 
 - **“OcuTrack”: Personal Eye Tracking Profile**  
   Built using pre-trained convolutional networks.  
-  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+  **[View Project](https://github.com/williaml12/-OcuTrack-Personal-Eye-Tracking-Profile-Eye-Tracking-)**
 
 ## Skills
 ***
