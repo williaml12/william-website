@@ -10,7 +10,6 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 *Bachelor's degree in Engineering, Biomedical Engineering*  
 
 
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)
 
 **Major Subjects:**
 - Machine Learning
