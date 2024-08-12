@@ -21,14 +21,6 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 - **Arizona Biomedical Collaborative, University of Arizona College of Medicine** – Product Design Engineer Intern
 - **Neural Control of Movement Lab, ASU** – Undergraduate Research Assistant
 
-
-## Workshop
-***
-- **Modeling and Simulation Using Artificial Neural Networks**  
-  *Organized by NUST, Peshawar Road, Rawalpindi, Pakistan*  
-  *22/05/2017*  
-  Focused on artificial intelligence paradigms and neural network applications.
-
 ## Projects
 ***
 - **Face Recognition Attendance System**  
@@ -43,13 +35,7 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
   Built using pre-trained convolutional networks.  
   **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
 
-## Dataset
-***
-- **Periapical X-rays Data set**  
-  Kaggle dataset from AFID, Rawalpindi.  
-  **[Kaggle Dataset](https://doi.org/10.34740/KAGGLE/DSV/2664831)**
-
-## Digital Skills
+## Skills
 ***
 - Python Programming / Tensorflow Framework / Tensorflow Keras Framework
 
