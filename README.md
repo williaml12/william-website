@@ -24,19 +24,19 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 ## Projects
 ***
 - **AI Portfolio Website**  
-  An app using face recognition for attendance, perfect for schools and colleges.  
+  Build your portfolio with Python, Streamlit, and Google AI. Showcase your coding skills to recruiters with a chatbot tailored to your resume. 
   **[View Project](https://github.com/williaml12/AI_Portfolio_Website)**
 
 - **iSense: Smart Home Security System**  
-  Predicts lesions in X-rays using deep convolutional networks.  
+  Make IoT-based Smart Home Security system to monitor daily home activity and control all the home appliances with Blynk app & Switches.
   **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
 
 - **Smart Temperature Monitoring System**  
-  Built using pre-trained convolutional networks.  
+  Monitor your room temperature from your mobile devices.
   **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
 
 - **People Counter App at the Edge**  
-  Built using pre-trained convolutional networks.  
+  The people counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people in a designated area,       providing the number of people in the frame, average duration of people in frame, and total count.  
   **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
 
 - **Vehicle-Edge-Application**  
