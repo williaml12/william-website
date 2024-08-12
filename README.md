@@ -45,11 +45,11 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br 
   **[View Project](https://github.com/williaml12/Vehicle-Edge-Application)**
 
 - **Door-Security-System**  
-  Contribute to design and develop on home security system. Users will get alert when they appoach to the door that set with sensor for detection.
+  Contribute to design and develop on home security system. Users will get alert when they appoach to the door that set with sensor for detection. <br />
       **[View Project](https://github.com/williaml12/Door-Security-System)**
 
 - **“OcuTrack”: Personal Eye Tracking Profile**  
-  Design and develop a computer vision system for tracking athlete eye movement to detect and diagnose abnormalities that may indicate concussion or mild Traumatic Brain Injury (TBI).
+  Design and develop a computer vision system for tracking athlete eye movement to detect and diagnose abnormalities that may indicate concussion or mild Traumatic Brain Injury (TBI). <br />
       **[View Project](https://github.com/williaml12/-OcuTrack-Personal-Eye-Tracking-Profile-Eye-Tracking-)**
 
 ## Skills
