@@ -10,10 +10,10 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 *Bachelor's degree in Engineering, Biomedical Engineering*  | (_May 2017_)  <br />
 
 **Major Subjects:**
-- Machine Learning
-- Advanced Digital Image Processing
-- Advanced Data Mining
-- Advanced Research Methods and Quantitative Tools
+- Microcomputer Applications in Biomedical Engineering
+- IoT Solutions in Biomedical Engineering
+- Biomedical Instrumentation with lab
+- Biomechanics for Biomedical Engineers
 
 ## Experience
 ***
