@@ -6,7 +6,7 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 ## Education 
 ***
-**Ira A. Fulton Schools of Engineering at Arizona State University**      <br />                                                     
+**Ira A. Fulton Schools of Engineering at Arizona State University**      
 _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br />
 
 **Major Subjects:**
