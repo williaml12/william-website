@@ -1,67 +1,61 @@
+# William Lu
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=williaml12&show_icons=true)
+
 ## About
-***
-Recent engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, data analysis; and seeking for opportunities in the fields of Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
+Recent engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, and data analysis. Seeking opportunities in Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
 
-Interest in personalize medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cyber security.
+Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cyber security.
 
-## Education 
-***
-**Ira A. Fulton Schools of Engineering at Arizona State University**      
-_Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br />
+## Education
+**Ira A. Fulton Schools of Engineering at Arizona State University**  
+_Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  
+
 **Major Subjects:**
 - Microcomputer Applications in Biomedical Engineering
 - IoT Solutions in Biomedical Engineering
-- Biomedical Instrumentation with lab
+- Biomedical Instrumentation with Lab
 - Biomechanics for Biomedical Engineers
 
 ## Experience
-***
 - **IMAV LLC** – Mechanical Design Engineer & CFD Analyst
-- **Intelligent Embedded Systems Laboratory (IeSL), ASU** - Undergraduate Research Assistant in Mechanical Engineering
+- **Intelligent Embedded Systems Laboratory (IeSL), ASU** - Undergraduate Research Assistant
 - **Arizona Biomedical Collaborative, University of Arizona College of Medicine** – Product Design Engineer Intern
 - **Neural Control of Movement Lab, ASU** – Undergraduate Research Assistant
 
 ## Projects
-***
-- **AI Portfolio Website**  
-  Build your portfolio with Python, Streamlit, and Google AI. Showcase your coding skills to recruiters with a chatbot tailored to your resume. <br />
-  **[View Project](https://github.com/williaml12/AI_Portfolio_Website)**
+- **[AI Portfolio Website](https://github.com/williaml12/AI_Portfolio_Website)**  
+  Build your portfolio with Python, Streamlit, and Google AI. Showcase your coding skills to recruiters with a chatbot tailored to your resume.
 
-- **iSense: Smart Home Security System**  
-  Make IoT-based Smart Home Security system to monitor daily home activity and control all the home appliances with Blynk app & Switches. <br />
-  **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
+- **[iSense: Smart Home Security System](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**  
+  An IoT-based Smart Home Security system to monitor home activity and control appliances with Blynk app & Switches.
 
-- **Smart Temperature Monitoring System**  
-  Monitor your room temperature from your mobile devices. <br />
-  **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
+- **[Smart Temperature Monitoring System](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**  
+  Monitor your room temperature from your mobile devices.
 
-- **People Counter App at the Edge**  
-  The people counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people in a designated area,       providing the number of people in the frame, average duration of people in frame, and total count.  <br />
-  **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
+- **[People Counter App at the Edge](https://github.com/williaml12/People-Counter-App-at-the-Edge)**  
+  Demonstrate smart video IoT solution using Intel® hardware and software tools to count people in a designated area.
 
-- **Vehicle-Edge-Application**  
-  The vehicle counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people, vehicle in a designated   area, providing the number of frame, average duration of vehicle in frame, and total count. <br />
-  **[View Project](https://github.com/williaml12/Vehicle-Edge-Application)**
+- **[Vehicle-Edge-Application](https://github.com/williaml12/Vehicle-Edge-Application)**  
+  Create a smart video IoT solution for vehicle detection in a designated area using Intel® hardware and software tools.
 
-- **Door-Security-System**  
-  Contribute to design and develop on home security system. Users will get alert when they appoach to the door that set with sensor for detection. <br />
-      **[View Project](https://github.com/williaml12/Door-Security-System)**
+- **[Door-Security-System](https://github.com/williaml12/Door-Security-System)**  
+  Design and develop a home security system with sensor detection alerts.
 
-- **“OcuTrack”: Personal Eye Tracking Profile**  
-  Design and develop a computer vision system for tracking athlete eye movement to detect and diagnose abnormalities that may indicate concussion or mild Traumatic Brain Injury (TBI). <br />
-      **[View Project](https://github.com/williaml12/-OcuTrack-Personal-Eye-Tracking-Profile-Eye-Tracking-)**
+- **[OcuTrack: Personal Eye Tracking Profile](https://github.com/williaml12/-OcuTrack-Personal-Eye-Tracking-Profile-Eye-Tracking-)**  
+  Develop a computer vision system to track athlete eye movement for concussion or mild Traumatic Brain Injury (TBI) detection.
 
 ## Skills
-***
-- **Software**: MatLab, LabVIEW, SolidWorks, ANSYS, PSpice, ImageJ, MS Word, Excel, PowerPoint, Project, Arduino IDE, and Visual Studio
-- **Hardware**: Arduino, Particle Photon, Sony Spresense, ESP32, ESP8266, and Raspberry Pi
-- **Programming Languages**: C++, C, Python, Java, and MatLab
-- **Languages**: Chinese (Native), and Spanish (Elementary Proficiency, basic, entry-level)
-- **Others**: Good verbal and written communication skills, 3D printing, assembling, troubleshooting, validation and documentation, FEA and failure analysis, technical
-writing
+- **Software:** MatLab, LabVIEW, SolidWorks, ANSYS, PSpice, ImageJ, MS Office Suite, Arduino IDE, Visual Studio
+- **Hardware:** Arduino, Particle Photon, Sony Spresense, ESP32, ESP8266, Raspberry Pi
+- **Programming Languages:** C++, C, Python, Java, MatLab
+- **Languages:** Chinese (Native), Spanish (Elementary Proficiency)
+- **Others:** Communication skills, 3D printing, troubleshooting, FEA, failure analysis, technical writing
 
 ## Certifications
-***
+<details>
+  <summary>Click to expand</summary>
+  
 - Object Detection 101 — Easy Object Detection
 - Object Detection 201 — Fundamentals of Deep Learning Object Detection
 - OpenCV 101 — OpenCV Basics
@@ -74,18 +68,17 @@ writing
 - Face Recognition 101 — Fundamentals of Facial Recognition
 - Deep Learning 125 — Data Pipelines with tf.data
 - Deep Learning 120 — Regression with CNNs
-- Deep Learning 103 -- Neural Network Fundamentals
+- Deep Learning 103 — Neural Network Fundamentals
 - Deep Learning 130 — Hyperparameter Tuning
 - Siamese Networks 101
+</details>
 
 ## Language Skills 
-***
-- **Chinese** (Native or bilingual proficiency)
-- **English**: Professional proficiency
-- **Spanish**: Elementary proficiency
+- **Chinese:** Native or bilingual proficiency
+- **English:** Professional proficiency
+- **Spanish:** Elementary proficiency
 
 ## Contact
-***
-- **Email**: [luwei2359@gmail.com](mailto:luwei2359@gmail.com)
-- **LinkedIn**: [William Lu](https://www.linkedin.com/in/william-lu-47693b145/)
-- **GitHub**: [williaml12](https://github.com/williaml12)
+- **Email:** [luwei2359@gmail.com](mailto:luwei2359@gmail.com)
+- **LinkedIn:** [William Lu](https://www.linkedin.com/in/william-lu-47693b145/)
+- **GitHub:** [williaml12](https://github.com/williaml12)
