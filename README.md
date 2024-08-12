@@ -29,12 +29,10 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 - **iSense: Smart Home Security System**  
   Make IoT-based Smart Home Security system to monitor daily home activity and control all the home appliances with Blynk app & Switches.
-
   **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
 
 - **Smart Temperature Monitoring System**  
   Monitor your room temperature from your mobile devices.
-
   **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
 
 - **People Counter App at the Edge**  
