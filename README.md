@@ -28,7 +28,7 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
   **[View Project](https://github.com/williaml12/AI_Portfolio_Website)**
 
 - **iSense: Smart Home Security System**  
-  Make IoT-based Smart Home Security system to monitor daily home activity and control all the home appliances with Blynk app & Switches. <br />    
+  Make IoT-based Smart Home Security system to monitor daily home activity and control all the home appliances with Blynk app & Switches. <br />
   **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
 
 - **Smart Temperature Monitoring System**  
