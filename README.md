@@ -32,7 +32,7 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
   **[View Project](https://www.hackster.io/wlu1/isense-smart-home-security-system-ee9156#things)**
 
 - **Smart Temperature Monitoring System**  
-  Monitor your room temperature from your mobile devices. <br />    
+  Monitor your room temperature from your mobile devices. <br />
   **[View Project](https://www.hackster.io/wlu1/smart-temperature-monitoring-system-529da8)**
 
 - **People Counter App at the Edge**  
