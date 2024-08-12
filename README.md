@@ -41,7 +41,7 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br 
   **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
 
 - **Vehicle-Edge-Application**  
-  The vehicle counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people, vehicle in a designated   area, providing the number of frame, average duration of vehicle in frame, and total count.
+  The vehicle counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people, vehicle in a designated   area, providing the number of frame, average duration of vehicle in frame, and total count. <br />
   **[View Project](https://github.com/williaml12/Vehicle-Edge-Application)**
 
 - **Door-Security-System**  
