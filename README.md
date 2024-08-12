@@ -41,15 +41,15 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)  <br 
   **[View Project](https://github.com/williaml12/People-Counter-App-at-the-Edge)**
 
 - **Vehicle-Edge-Application**  
-  Built using pre-trained convolutional networks.  
+  The vehicle counter application will demonstrate how to create a smart video IoT solution using Intel® hardware and software tools. The app will detect people, vehicle in a designated   area, providing the number of frame, average duration of vehicle in frame, and total count.
   **[View Project](https://github.com/williaml12/Vehicle-Edge-Application)**
 
 - **Door-Security-System**  
-  Built using pre-trained convolutional networks.  
+  Contribute to design and develop on home security system. Users will get alert when they appoach to the door that set with sensor for detection.
   **[View Project](https://github.com/williaml12/Door-Security-System)**
 
 - **“OcuTrack”: Personal Eye Tracking Profile**  
-  Built using pre-trained convolutional networks.  
+  Design and develop a computer vision system for tracking athlete eye movement to detect and diagnose abnormalities that may indicate concussion or mild Traumatic Brain Injury (TBI)
   **[View Project](https://github.com/williaml12/-OcuTrack-Personal-Eye-Tracking-Profile-Eye-Tracking-)**
 
 ## Skills
