@@ -1,7 +1,17 @@
+# title: "William Lu"
+# # font_size: 2em
+# description: "Software Developer and AI Enthusiast"
+# logo: images/William.png
+# remote_theme: pages-themes/minimal@v0.2.0
+# github_username: williaml12
+# # show_downloads: true
+
 title: "William Lu"
-# font_size: 2em
 description: "Software Developer and AI Enthusiast"
 logo: images/William.png
 remote_theme: pages-themes/minimal@v0.2.0
 github_username: williaml12
-# show_downloads: true
+show_downloads: true
+# social links
+email: luwei2359@gmail.com
+linkedin: william-lu-47693b145
