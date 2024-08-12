@@ -6,9 +6,11 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 ## Education 
 ***
-**Ira A. Fulton Schools of Engineering at Arizona State University**        |     *[ 08/05/2014 – 05/10/2017 ]*                                                                           
+**Ira A. Fulton Schools of Engineering at Arizona State University**        |    (_May 2017_)                                                                
 *Bachelor's degree in Engineering, Biomedical Engineering*  
 
+
+- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)
 
 **Major Subjects:**
 - Machine Learning
