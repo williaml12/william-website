@@ -62,10 +62,21 @@ writing
 
 ## Certifications
 ***
-- AI for Medicine Specialization (deeplearning.ai)
-- TensorFlow Developer Professional Certificate (deeplearning.ai)
-- AI Programming with Python Nanodegree (Udacity)
-- Neural Networks and Deep Learning (deeplearning.ai)
+- Object Detection 101 — Easy Object Detection
+- Object Detection 201 — Fundamentals of Deep Learning Object Detection
+- OpenCV 101 — OpenCV Basics
+- OpenCV 102 — Basic Image Processing Operations
+- Object Detection 202 — Bounding Box Regression
+- Face Applications 101 — Face Detection
+- Face Applications 102 — Fundamentals of Facial Landmarks
+- Image Adversaries 101 — Intro to Image Adversaries
+- Autoencoders 101 — Intro to Autoencoders
+- Face Recognition 101 — Fundamentals of Facial Recognition
+- Deep Learning 125 — Data Pipelines with tf.data
+- Deep Learning 120 — Regression with CNNs
+- Deep Learning 103 -- Neural Network Fundamentals
+- Deep Learning 130 — Hyperparameter Tuning
+- Siamese Networks 101
 
 ## Language Skills 
 ***
