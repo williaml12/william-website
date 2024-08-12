@@ -23,15 +23,31 @@ Interest in personalize medicine, digital health, IoMT (Internet of Medical Thin
 
 ## Projects
 ***
-- **Face Recognition Attendance System**  
+- **AI Portfolio Website**  
   An app using face recognition for attendance, perfect for schools and colleges.  
   **[Demo Video](https://youtu.be/_Y9ZmRDrKcQ?si=wg7ryELT7nB5yhuX)**
 
-- **Periapical X-ray Classifier**  
+- **iSense: Smart Home Security System**  
   Predicts lesions in X-rays using deep convolutional networks.  
   **[Demo Video](https://youtu.be/QuSJeuWmB44?si=J6DbSxa1B-1vjZhB)**
 
-- **Image Classifier**  
+- **Smart Temperature Monitoring System**  
+  Built using pre-trained convolutional networks.  
+  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+
+- **People Counter App at the Edge**  
+  Built using pre-trained convolutional networks.  
+  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+
+- **Vehicle-Edge-Application**  
+  Built using pre-trained convolutional networks.  
+  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+
+- **Door-Security-System**  
+  Built using pre-trained convolutional networks.  
+  **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
+
+- **“OcuTrack”: Personal Eye Tracking Profile**  
   Built using pre-trained convolutional networks.  
   **[Certification](https://confirm.udacity.com/D4KCHPUZ)**
 
