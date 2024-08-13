@@ -83,7 +83,6 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 - **Portfolio:** [View my personal portfolio website](https://williamlu.streamlit.app/)
   
 ---
-[![View the Project on GitHub](https://img.shields.io/badge/GitHub-View%20Project-blue)](https://github.com/yourusername/yourproject)
 
 *Thank you for visiting my GitHub page! Feel free to reach out if you have any questions or collaboration ideas.*
-
+©️ 2024 William Lu. All rights reserved.
