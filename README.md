@@ -78,11 +78,6 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 - **English:** Professional proficiency
 - **Spanish:** Elementary proficiency
 
-## Contact
-- **Email:** [luwei2359@gmail.com](mailto:luwei2359@gmail.com)
-- **LinkedIn:** [William Lu](https://www.linkedin.com/in/william-lu-47693b145/)
-- **GitHub:** [williaml12](https://github.com/williaml12)
-
 ---
 
 ## Connect with Me
@@ -93,16 +88,8 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 
 ## Additional Resources
 
-- **Portfolio:** [View my personal portfolio website](https://your-portfolio-link.com)
-- **Blog:** [Read my latest articles](https://your-blog-link.com)
-
----
-
-### Credits
-
-- Profile Picture: [Photo by Example Photographer](https://photographer-link.com)
-- Icons and Graphics: [Icons Source](https://icons-source.com)
-
+- **Portfolio:** [View my personal portfolio website](https://williamlu.streamlit.app/)
+  
 ---
 
 *Thank you for visiting my GitHub page! Feel free to reach out if you have any questions or collaboration ideas.*
