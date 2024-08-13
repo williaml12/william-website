@@ -84,5 +84,4 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
   
 ---
 
-*Thank you for visiting my GitHub page! Feel free to reach out if you have any questions or collaboration ideas.*
 ©️ 2024 William Lu. All rights reserved.
