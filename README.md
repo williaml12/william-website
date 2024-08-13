@@ -1,7 +1,3 @@
-# William Lu
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=williaml12&show_icons=true)
-
 ## About
 Recent engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, and data analysis. Seeking opportunities in Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
 
@@ -54,8 +50,6 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 
 ## Certifications
 <details>
-  <summary>Click to expand</summary>
-  
 - Object Detection 101 — Easy Object Detection
 - Object Detection 201 — Fundamentals of Deep Learning Object Detection
 - OpenCV 101 — OpenCV Basics
