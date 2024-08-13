@@ -49,6 +49,9 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 - **Others:** Communication skills, 3D printing, troubleshooting, FEA, failure analysis, technical writing
 
 ## Certifications
+<details>
+  <summary>Click to expand</summary>
+  
 - Object Detection 101 — Easy Object Detection
 - Object Detection 201 — Fundamentals of Deep Learning Object Detection
 - OpenCV 101 — OpenCV Basics
@@ -64,6 +67,7 @@ _Bachelor's degree in Engineering, Biomedical Engineering_  | (_May 2017_)
 - Deep Learning 103 — Neural Network Fundamentals
 - Deep Learning 130 — Hyperparameter Tuning
 - Siamese Networks 101
+</details>
 
 ## Language Skills 
 - **Chinese:** Native or bilingual proficiency
