@@ -1,5 +1,5 @@
 ## About
-Recent engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, and data analysis. Seeking opportunities in Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
+An engineering graduate with experience in mechanical design, mechanical stimulation, computer vision, machine learning, and data analysis. Seeking opportunities in Digital Healthcare, IoMT, medical imaging, bioinformatics, and Biomedical Engineering.
 
 Interest in personalized medicine, digital health, IoMT (Internet of Medical Things), bioinformatics, medical imaging, telemedicine, computer vision, object recognition, IoT solutions, cloud computing, machine learning, deep learning, cognitive computing, big data, AI, and cyber security.
 
